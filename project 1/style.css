@@ -1,0 +1,162 @@
+:root {
+    --gold: goldenrod;
+    --white: #ffffff;
+  }
+*{
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin:0;
+    padding: 0;  
+}
+ul{
+list-style-type:none;
+margin:0;
+padding: 0;
+overflow:hidden;
+}
+li{
+    display:inline;
+    float:right;
+    padding: 14px;
+   color:white;
+}
+a{
+    /*display:inline;
+    float:right;*/
+   text-decoration: none;
+   color:white;
+}
+li:hover,a:hover{
+    color:gold;
+}
+nav{
+    background-color: black;
+    padding: 8px;
+    /*position: sticky;*/
+    top: 0px;
+}
+.Home,.MakeRes,.Contact{
+    text-align: center;
+    padding:40vh;
+}
+.About
+{
+    text-align: center;
+    padding:40vh;
+}
+.picturesec
+{
+    float:right;
+    width: 25%;
+    position:relative;
+    top:40vh;
+    /*border-style:solid;*/
+    
+}
+.title{
+    font-size: 3.8rem;
+}
+.subtitle{
+    font-size:1.4rem;
+    color:black;
+}
+
+.heading{
+    font-size: 2rem;
+}
+.title:hover,.subtitle:hover{
+    color:gold;
+    
+}
+.heading:hover{
+color:goldenrod;
+}
+.Home{
+    background-image: url(titlepic.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    backdrop-filter:opacity(0.8);
+}
+.MakeRes{
+    background-image: url(blurpic.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    backdrop-filter:opacity(0.8);
+}
+/*---------form css------*/
+.form {
+    margin: 0 auto;
+    /*width: 210px;*/
+}
+input[type=text],[type=email]{
+        width: 80%;
+        padding: 10px 20px;
+        margin: 10px 5px;
+        box-sizing: border-box; 
+        border-radius:0.6rem;
+        border-width: 0cm;
+}
+select {
+    width: 40%;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    align-items:left;
+    border-radius:0.6rem;
+    border-width: 0cm;
+}
+input[type=submit] {
+    background-color: black;
+    border: none;
+    color: white;
+    padding:1rem 3rem;
+    text-decoration: none;
+    margin: 5px 4px;
+    cursor: pointer;  
+    border-radius:1.5rem;
+    border-width: 0cm;
+}
+input[type=submit]:hover {
+    background-color: goldenrod;;
+    border: none;
+    color: white;
+    padding:1rem 3rem;
+    text-decoration: none;
+    margin: 5px 4px;
+    cursor: pointer;  
+    border-radius:1.5rem;
+    border-width: 0cm;
+}
+
+span{
+    color:var(--gold);
+}
+
+button{
+    padding:1rem 3rem;
+    color:white;
+    background-color:black;
+    border-radius:1.5rem;
+    border-width: 0cm;
+}
+button:hover{
+    background-color: goldenrod;
+}
+button:active{
+    color:white;
+    background-color:black;
+}
+
+/*------Footer--------*/
+footer{
+    background-color: black;
+    padding: 6px;
+    color:white;
+    text-align:center;
+}
